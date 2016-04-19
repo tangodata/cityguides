@@ -1,9 +1,193 @@
 ---
-city: Singapore
-country: Singapore
-geo: [107, 1]
+################################################
+### tpe-taipei-taiwan.yml
+################################################
 
----
+
+#three letter code, use IATA code preferred
+shortname: tpe
+
+#city / country names in English, spacing OK
+city: taipei
+country: taiwan ROC
+
+#city / country names in local language
+citylocal: 
+countrylocal:
+
+#geo coding [longitude, latitude]
+#indicator of the city in world map
+geo: [0,0]
+
+#current google calendar feed (1 or more)
+gcal: 
+  - url
+
+# list of regular weekdays    
+# list wday = Mon, Tue, Wed, etc
+regular:
+  - wday: Mon
+    events:
+  - wday: Tue
+    events:
+      - name: Practica Sacale Puna
+        info: Exotic 8pm-11pm
+        extra: NT200
+      - name: Corazon Reserved Practica
+        info: Corazon 9pm-11pm
+        extra: NT200
+  - wday: Wed
+    events:
+      - name: Milonguita
+        info: Tanguisimo 7.30pm-11.30pm
+        extra: NT250 
+  - wday: Thu
+    events:
+      - name: A-Practilonga
+        info: Sport King
+        extra: NT150
+  - wday: Fri
+    events:
+      - name: TAV Practica
+        info: TAV 8pm-11pm
+        extra: NT200
+      - name: Milonga Guapa
+        info: Tanguisimo 9pm-1.30am
+        extra: NT300
+  - wday: Sat
+    events:
+      - name: Jason Sabrina Practica
+        info: Area 5-1 3pm-4.30pm
+        extra: NT150
+      - name: Saturday Practica
+        info: Tanguisimo 3.30pm-5pm
+        extra: NT150
+      - name: Milonga
+        info: Tanguisimo 8pm-1am
+        extra: NT300
+      - name: Milonga
+        info: Corazon 8pm-1am
+        extra: NT250
+      - name: Milonga La Vida
+        info: Asi 8.30pm-1.30am
+        extra: NT300
+      - name: Milonga el Domingo
+        info: Fuego 8.30pm-1.30am
+        extra: NT100 (min NT300)
+  - wday: Sun
+    events:
+      - name: Practica Tango y Cafe
+        info: Tanguisimo 2.30pm-6pm
+        extra: NT 250
+      - name: Tea Time Milonga
+        info: Asi 3pm-7pm
+        extra: NT 200
+      - name: Outdoor A Practilonga
+        info: Sun Yat-sen 3pm-6pm
+        extra: free
+
+
+# list of major venues
+venues:
+  - vid:   tang
+    name:  Tanguisimo Tango Space
+    address: 
+    textmessage: 
+    blurb: 
+    barrio:
+    geo:
+  - vid:   cor
+    name:  Corazon Studio
+    address: 
+    textmessage: 
+    blurb: 
+    barrio:
+    geo:
+  - vid:   a51
+    name:  Area 5-1
+  - vid:   asi
+    name:  Asi Space
+  - vid:   exotic
+    name:  Exotic Studio
+  - vid:   fuego
+    name:  Fuego
+  - vid:   fuse
+    name:  Fuse
+  - vid:   sking
+    name:  Sport King Studio
+  - vid:   tav
+    name:  TAV Cafe
+  - vid:   sys
+    name:  Sun Yat-sen Memorial Hall
+  
+  
+#social feeds
+fblinks:
+  groups:
+    - name: tango taipei
+      id:   "386587434854525"
+    - name: taiwan tango club
+      id:   "347080315402944"
+    - name: taiwan tango marathon
+      id:   "1494663620822173"
+    - name: tango libre taiwan
+      id:   "475902802515549"
+    - name: tango in nice places
+      id:   "474213335975551"
+    - name: La Vida milonga
+      id:   "324838717678171"
+    - name: Hsinchu tango
+      id:   "1430797180510627"
+    - name: Kaohsiung tango
+      id:   "251896038218742"
+    - name: Tainan tango
+      id:   "203155023355489"
+    - name: Secondhand tango market
+      id:   "571258962947595"
+  fanpages:
+    - name: taipei tango festival
+      id:   "118175298241248"
+    - name: corazon tango 
+      id:   "121993884490898"
+    - name: tav tango
+      id:   "380598481990384"
+    - name: tango duo 
+      id:   "1696126670670819"
+    - name: ntu tango club
+      id:   "431788636873354"
+    
+      
+##############################################
+# The followings are optional data
+# for inclusion in  [TangoFinder]
+# 
+
+#zone is a region, e.g.SAsia, EAsia, WAsia
+zone: easia
+
+#continent is Asia, Europe, Africa, America, Oceania
+continent: Asia
+
+#tagline 
+tagline: City of Light
+
+#hero images
+hero: "//res.tangueros.net/assets/jumbos/slide_tky_skyline.png"
+
+#a region map covering the entire area of interest
+maplink:
+
+#write something to appear in About popup
+#multiline use > 
+about: 
+
+# the local contact person/s
+contact:
+  - name:
+    email:
+    textmsg:
+    
+
 
 
 

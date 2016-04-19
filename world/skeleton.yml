@@ -1,0 +1,100 @@
+---
+################################################
+### This is a YAML format configuration file
+### for one city or municipal area
+###
+### filename is (shortname)-(city)-country.yml
+###
+### please validate it is  YAML-correct 
+### 
+################################################
+
+
+#three letter code, use IATA code preferred
+shortname: 
+
+#city / country names in English, spacing OK
+city: 
+country:
+
+#city / country names in local language
+citylocal:
+countrylocal:
+
+#geo coding [longitude, latitude]
+#indicator of the city in world map
+geo: [0,0]
+
+#current google calendar feed (1 or more)
+gcal: 
+  - url
+
+# list of regular weekdays    
+# list wday = Mon, Tue, Wed, etc
+regular:
+  - wday: 
+    events:
+      - name: 
+        info: 
+        extra: 
+        links:
+          - url
+        organizers: 
+        orglinks:
+          - url
+
+# list of major venues
+# vid is a simple unique key
+venues:
+  - vid: 
+    name: 
+    address:
+    barrio:
+    textmessage:
+    blurb:
+    geo: [0,0]
+     
+    
+#social feeds
+fblinks:
+  groups:
+    - name: 
+      id:   
+  fanpages:
+    - name: 
+      id:
+
+
+
+
+##############################################
+# The followings are optional data
+# for inclusion in  [TangoFinder]
+# 
+
+#zone is a region, e.g.SAsia, EAsia, WAsia
+zone:
+
+#continent is Asia, Europe, Africa, America, Oceania
+continent:
+
+#tagline 
+tagline:
+
+#hero images
+hero:
+  - url
+
+#a region map covering the entire area of interest
+maplink:
+
+#write something to appear in About popup
+#multiline use > 
+about: 
+
+# the local contact person/s
+contact:
+  - name:
+    email:
+    textmsg:
+    

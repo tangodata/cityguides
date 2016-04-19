@@ -1,9 +1,204 @@
 ---
-city: Singapore
-country: Singapore
-geo: [107, 1]
+################################################
+### hkg-hongkong-hksar.yml
+################################################
 
----
+
+#three letter code, use IATA code preferred
+shortname: hkg
+
+#city / country names in English, spacing OK
+city: hongkong
+country: hongkong sar
+
+#city / country names in local language
+citylocal: 
+countrylocal:
+
+#geo coding [longitude, latitude]
+#indicator of the city in world map
+geo: [0,0]
+
+#current google calendar feed (1 or more)
+gcal: 
+  - url
+
+# list of regular weekdays    
+# list wday = Mon, Tue, Wed, etc
+regular:
+  - wday: Mon
+    events:
+      - name: Milonga Lunes
+        info: @ Dance Concept 9pm-1am
+        extra: 
+  - wday: Tue
+    events:
+      - name: Milonga X
+        info: @ Rula Bula Lan Kwai Fong 9.30pm-1am
+        extra: 
+  - wday: Wed
+    events:
+      - name: PRACTICA COLDmanCOOL
+        info: Wed 
+        extra: 
+  - wday: Thu
+    events:
+      - name: Milonga Nuevo
+        info: 
+        extra: 
+      - name: Practica Otro
+        info: @ Ricky Studio 9.15pm-12.15am
+        extra: 
+  - wday: Fri
+    events:
+      - name: Milonga OTRA Noche
+        info: @ Dance Culture 9.30pm-1.30am
+        extra: 
+      - name: TANGUERA "La Milonga"
+        info: @ HKU 9.30pm-1am
+        extra: 
+  - wday: Sat
+    events:
+      - name: Corazon Tango
+        info: 
+        extra: 
+  - wday: Sun
+    events:
+      - name: High Tea Milonga
+        info: Some Sun @ Danzstage 4.10pm-7pm
+        extra: 
+      - name: Practica Domingos
+        info: Some Sun @ Danzstage 4.30pm-7pm
+        extra: 
+      - name: Lido Tango Milonga
+        info: Some Sun @ A&B Dance Academy 8.30pm-midnight
+        extra: 
+
+
+# list of major venues
+venues:
+  - vid: dstage
+    name: Danzstage
+    address: 
+    textmessage: 
+    blurb: 
+    barrio: 
+    geo:
+  - vid: dculture
+    name: Dance Culture
+    address: 
+    blurb:
+    barrio:
+    geo:
+  - vid: amico
+    name: Amico Studio
+    address: 
+    textmessage: 
+    blurb: 
+    barrio:
+    geo:
+  - vid: otro
+    name: OTROTango Dance Studio
+  - vid: malevos
+    name: Malevos Tango School
+  - vid: rula
+    name: Rula Bula (Milonga X)
+  - vid: dconcept
+    name: Dance Concept
+  - vid: hku
+    name: Graduate House HKU
+  - vid: ricky
+    name: Ricky Studio
+  - vid: ping
+    name: PingPong 129    
+    
+#social feeds
+fblinks:
+  groups:
+    - name: hong kong tango
+      id:   "811530215594629"
+    - name: tangotang group
+      id:   "6060653651"
+    - name: la escencia HK Marathon
+      id:   "893294940758452"
+    - name: Milonga M
+      id:   "265137943530663"
+    - name: HK Tango Argentino Association
+      id:   "17574600966"
+    - name: HK Tango Academy
+      id:   "54648443626"
+    - name: HK Tangueros
+      id:   "192458114118718"
+    - name: Raymond and Lily OTROTango
+      id:   "121165124646808"
+    - name: OtroTango new generation
+      id:   "27734195258"
+    - name: Malevos Tango HK Group
+      id:   "278786138802855"
+    - name: Milonga Otra Noche
+      id:   "168854139869607"
+    - name: HK TangoFest Tangotang
+      id:   "137955449556863"
+    - name: Milonga Nuevo HK
+      id:   "35516277516"
+    - name: HK Tango Recycle Market
+      id:   "582041735247545"
+    - name: Milonga de Estrellas
+      id:   "392211450802679"
+    - name: Star Galaxy Milonga Estrella
+      id:   "436937713101168"
+  fanpages:
+    - name: tangotang
+      id:   "370423291131"
+    - name: trio spin tango
+      id:   "209624359095817"
+    - name: Kee Tango
+      id:   "516714478473340"
+    - name: Felipe y Sandra Malevos Tango
+      id:   "197208837009861"
+    - name: HK Tango Academy Association
+      id:   "304883586208455"
+    - name: Richard DJ Thoughts
+      id:   "262424507129770"
+    - name: ECEC Productions
+      id:   "20261333804"
+    - name: Tango_me_home Clothes
+      id:   "204062013107852"
+    - name: Feliz Primavera shoes
+      id:   "18850024307"
+     
+      
+##############################################
+# The followings are optional data
+# for inclusion in  [TangoFinder]
+# 
+
+#zone is a region, e.g.SAsia, EAsia, WAsia
+zone: easia
+
+#continent is Asia, Europe, Africa, America, Oceania
+continent: Asia
+
+#tagline 
+tagline: City of Possibilities
+
+#hero images
+hero: "//res.tangueros.net/assets/jumbos/slide_tky_skyline.png"
+
+#a region map covering the entire area of interest
+maplink:
+
+#write something to appear in About popup
+#multiline use > 
+about: 
+
+# the local contact person/s
+contact:
+  - name:
+    email:
+    textmsg:
+    
+
 
 
 

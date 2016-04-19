@@ -1,9 +1,221 @@
 ---
-city: Singapore
-country: Singapore
-geo: [107, 1]
+################################################
+### sin-singapore-singapore.yml
+################################################
 
----
+
+#three letter code, use IATA code preferred
+shortname: sin
+
+#city / country names in English, spacing OK
+city: singapore
+country: singapore
+
+#city / country names in local language
+citylocal: 
+countrylocal:
+
+#geo coding [longitude, latitude]
+#indicator of the city in world map
+geo: [0,0]
+
+#current google calendar feed (1 or more)
+gcal: 
+  - url
+
+# list of regular weekdays    
+# list wday = Mon, Tue, Wed, etc
+regular:
+  - wday: Mon
+    events:
+      - name: Practica 
+        info: @ UP 9.30pm
+        extra: 
+  - wday: Tue
+    events:
+      - name: Milonga Pura
+        info: @ Lumen Room 9.30pm
+        extra: $10
+  - wday: Wed
+    events:
+      - name: Milonga Del Sur
+        info: @ Abrazos Club 9pm
+        extra: $15
+  - wday: Thu
+    events:
+      - name: Milonga Del Romance
+        info: Monthly @ downtown bars
+        extra: Organised by Jenny 
+      - name: Practica
+        info: @ Lumen Room 9pm
+        extra: 
+  - wday: Fri
+    events:
+      - name: Los Suenos Milonga
+        info: @ Los Suenos
+        extra: $??
+  - wday: Sat
+    events:    
+      - name: San Telmo Milonga
+        info: @ Abrazos Club 8pm
+        extra: $20
+      - name: Tangopura Milonga
+        info: @ Lumen Room 9.30pm
+        extra: $10
+  - wday: Sun
+    events:
+      - name: Sunday Practilonga
+        info: Sun @ YMCA Orchard
+        extra: $5
+      - name: SingaTango Tea
+        info: monthly @ Abrazos Club 3-6pm
+        extra: $10
+      - name: Tangueando (Social Latin mix)
+        info: @ Club 5 8.30pm
+        extra: ??
+
+# list of major venues
+venues:
+  - vid: abz
+    name: Abrazos Club
+    address: 568 Ganges Avenue 02-100 (160568)
+    textmessage: +65 9637-3512
+    blurb: Classes, Weekly Milongas
+    barrio: Tiong Bahru
+    geo:
+  - vid: lum
+    name: Lumen Room
+    address: 10 Winstedt Road #01-11 (227977)
+    blurb: Classes, weekly milongas.
+    barrio: Newton
+    geo:
+  - vid: enm
+    name: En Motion
+    address: 8 Craig Road
+    textmessage: +65 9159-7811
+    blurb: Classes, Weekly Practicas
+    barrio: Tanjong Pagar
+    geo:
+  - vid: los
+    name: Los Suenos
+    address: Craig Road
+    barrio: Tanjong Pagar
+    geo:
+  - vid: c5
+    name: Club 5
+    address: Parkroyal Hotel 7500A Beach Road (199590)        
+    blurb: Weekly Milongas
+    barrio: Bugis
+    geo:
+  - vid: ymca
+    name: YMCA Orchard
+    address:
+    blurb:    
+    barrio: Dhoby Ghaut
+    geo:
+  - vid: mos
+    name: Mosaic Dance
+    address: 222 Queen Street #01-01 (188550) 
+    address2: Opposite Hotel Royal @ Queens
+    textmessage: +65 9769 7265
+    email: info@mosaicdance.com.sg
+    blurb: Classes, weekly practicas and milongas
+    barrio: Bras Basah
+    geo:
+  - vid: sup
+    name: Studio Up
+    address: 15 Enggor Street #08-02 Realty Centre (079716)
+    address2: Access the lift lobby via the carpark entrance along Bernam Street
+    blurb: Classes, weekly practicas and milongas.
+    barrio: Tanjong Pagar
+    geo:
+  - vid: usq
+    name: Union Square
+    address: 100AM The Amara, 100 Tras Street #05-025
+    voice: +65 6224-6116
+    blurb: Occasional venue for milongas
+    barrio: Tanjong Pagar
+    geo:
+  - vid: led
+    name: Le Danz
+    address: Waterloo Road
+    barrio: Bras Basah
+    geo: 
+    
+#social feeds
+fblinks:
+  groups:
+    - name: tango-this week in singapore
+      id:   "1578469612403126"
+    - name: tango singapore 
+      id:   "50661258531"
+    - name: singapore tango
+      id:   "318149464969017"
+    - name: tango nuevo singapore
+      id:   "201261076594553"
+    - name: san telmo milonga (Sat)
+      id:   "853982371323862"
+    - name: sunday practilonga
+      id:   "482197398557034"
+    - name: tango singapore opinion
+      id:   "443293979060969"
+    - name: SITF festival
+      id:   "487040184747167"
+    - name: tango lyrical theare
+      id:   "4801573217"
+    - name: tango seal
+      id:   "1390510314498198"
+  
+  fanpages:
+    - name: tango singapore 
+      id:   "1498054700497388"
+    - name: abrazos club
+      id:   "235855011993"
+    - name: milonga del sur
+      id:   "300059803435253"
+    - name: los suenos
+      id:   "1691290561149921"
+    - name: ytango
+      id:   "168678923472061"
+    - name: singapore international tango festival
+      id:   "1590106531246260"
+    - name: mosaic
+      id:   "222388617776590"
+ 
+
+
+
+##############################################
+# The followings are optional data
+# for inclusion in  [TangoFinder]
+# 
+
+#zone is a region, e.g.SAsia, EAsia, WAsia
+zone: asean
+
+#continent is Asia, Europe, Africa, America, Oceania
+continent: Asia
+
+#tagline 
+tagline: The Surprising Singapore
+
+#hero images
+hero: "//res.tangueros.net/assets/jumbos/slide_sin_skyline.png"
+
+#a region map covering the entire area of interest
+maplink:
+
+#write something to appear in About popup
+#multiline use > 
+about: 
+
+# the local contact person/s
+contact:
+  - name:
+    email:
+    textmsg:
+    
+
 
 
 
