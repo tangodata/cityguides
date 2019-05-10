@@ -12,7 +12,7 @@ city: taipei
 country: taiwan ROC
 
 #city / country names in local language
-citylocal: 
+citylocal:
 countrylocal:
 
 #geo coding [longitude, latitude]
@@ -20,10 +20,10 @@ countrylocal:
 geo: [0,0]
 
 #current google calendar feed (1 or more)
-gcal: 
+gcal:
   - url
 
-# list of regular weekdays    
+# list of regular weekdays
 # list wday = Mon, Tue, Wed, etc
 regular:
   - wday: Mon
@@ -40,7 +40,7 @@ regular:
     events:
       - name: Milonguita
         info: Tanguisimo 7.30pm-11.30pm
-        extra: NT250 
+        extra: NT250
   - wday: Thu
     events:
       - name: A-Practilonga
@@ -91,16 +91,16 @@ regular:
 venues:
   - vid:   tang
     name:  Tanguisimo Tango Space
-    address: 
-    textmessage: 
-    blurb: 
+    address:
+    textmessage:
+    blurb:
     barrio:
     geo:
   - vid:   cor
     name:  Corazon Studio
-    address: 
-    textmessage: 
-    blurb: 
+    address:
+    textmessage:
+    blurb:
     barrio:
     geo:
   - vid:   a51
@@ -119,8 +119,8 @@ venues:
     name:  TAV Cafe
   - vid:   sys
     name:  Sun Yat-sen Memorial Hall
-  
-  
+
+
 #social feeds
 fblinks:
   groups:
@@ -147,20 +147,20 @@ fblinks:
   fanpages:
     - name: taipei tango festival
       id:   "118175298241248"
-    - name: corazon tango 
+    - name: corazon tango
       id:   "121993884490898"
     - name: tav tango
       id:   "380598481990384"
-    - name: tango duo 
+    - name: tango duo
       id:   "1696126670670819"
     - name: ntu tango club
       id:   "431788636873354"
-    
-      
+
+
 ##############################################
 # The followings are optional data
 # for inclusion in  [TangoFinder]
-# 
+#
 
 #zone is a region, e.g.SAsia, EAsia, WAsia
 zone: easia
@@ -168,7 +168,7 @@ zone: easia
 #continent is Asia, Europe, Africa, America, Oceania
 continent: Asia
 
-#tagline 
+#tagline
 tagline: City of Light
 
 #hero images
@@ -178,15 +178,15 @@ hero: "//res.tangueros.net/assets/jumbos/slide_tky_skyline.png"
 maplink:
 
 #write something to appear in About popup
-#multiline use > 
-about: 
+#multiline use >
+about:
 
 # the local contact person/s
 contact:
   - name:
     email:
     textmsg:
-    
+
 
 
 

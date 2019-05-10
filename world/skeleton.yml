@@ -5,16 +5,16 @@
 ###
 ### filename is (shortname)-(city)-country.yml
 ###
-### please validate it is  YAML-correct 
-### 
+### please validate it is  YAML-correct
+###
 ################################################
 
 
 #three letter code, use IATA code preferred
-shortname: 
+shortname:
 
 #city / country names in English, spacing OK
-city: 
+city:
 country:
 
 #city / country names in local language
@@ -26,42 +26,42 @@ countrylocal:
 geo: [0,0]
 
 #current google calendar feed (1 or more)
-gcal: 
+gcal:
   - url
 
-# list of regular weekdays    
+# list of regular weekdays
 # list wday = Mon, Tue, Wed, etc
 regular:
-  - wday: 
+  - wday:
     events:
-      - name: 
-        info: 
-        extra: 
+      - name:
+        info:
+        extra:
         links:
           - url
-        organizers: 
+        organizers:
         orglinks:
           - url
 
 # list of major venues
 # vid is a simple unique key
 venues:
-  - vid: 
-    name: 
+  - vid:
+    name:
     address:
     barrio:
     textmessage:
     blurb:
     geo: [0,0]
-     
-    
+
+
 #social feeds
 fblinks:
   groups:
-    - name: 
-      id:   
+    - name:
+      id:
   fanpages:
-    - name: 
+    - name:
       id:
 
 
@@ -70,7 +70,7 @@ fblinks:
 ##############################################
 # The followings are optional data
 # for inclusion in  [TangoFinder]
-# 
+#
 
 #zone is a region, e.g.SAsia, EAsia, WAsia
 zone:
@@ -78,7 +78,7 @@ zone:
 #continent is Asia, Europe, Africa, America, Oceania
 continent:
 
-#tagline 
+#tagline
 tagline:
 
 #hero images
@@ -89,12 +89,12 @@ hero:
 maplink:
 
 #write something to appear in About popup
-#multiline use > 
-about: 
+#multiline use >
+about:
 
 # the local contact person/s
 contact:
   - name:
     email:
     textmsg:
-    
+

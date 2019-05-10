@@ -12,7 +12,7 @@ city: hongkong
 country: hongkong sar
 
 #city / country names in local language
-citylocal: 
+citylocal:
 countrylocal:
 
 #geo coding [longitude, latitude]
@@ -20,81 +20,81 @@ countrylocal:
 geo: [0,0]
 
 #current google calendar feed (1 or more)
-gcal: 
+gcal:
   - url
 
-# list of regular weekdays    
+# list of regular weekdays
 # list wday = Mon, Tue, Wed, etc
 regular:
   - wday: Mon
     events:
       - name: Milonga Lunes
         info: @ Dance Concept 9pm-1am
-        extra: 
+        extra:
   - wday: Tue
     events:
       - name: Milonga X
         info: @ Rula Bula Lan Kwai Fong 9.30pm-1am
-        extra: 
+        extra:
   - wday: Wed
     events:
       - name: PRACTICA COLDmanCOOL
-        info: Wed 
-        extra: 
+        info: Wed
+        extra:
   - wday: Thu
     events:
       - name: Milonga Nuevo
-        info: 
-        extra: 
+        info:
+        extra:
       - name: Practica Otro
         info: @ Ricky Studio 9.15pm-12.15am
-        extra: 
+        extra:
   - wday: Fri
     events:
       - name: Milonga OTRA Noche
         info: @ Dance Culture 9.30pm-1.30am
-        extra: 
+        extra:
       - name: TANGUERA "La Milonga"
         info: @ HKU 9.30pm-1am
-        extra: 
+        extra:
   - wday: Sat
     events:
       - name: Corazon Tango
-        info: 
-        extra: 
+        info:
+        extra:
   - wday: Sun
     events:
       - name: High Tea Milonga
         info: Some Sun @ Danzstage 4.10pm-7pm
-        extra: 
+        extra:
       - name: Practica Domingos
         info: Some Sun @ Danzstage 4.30pm-7pm
-        extra: 
+        extra:
       - name: Lido Tango Milonga
         info: Some Sun @ A&B Dance Academy 8.30pm-midnight
-        extra: 
+        extra:
 
 
 # list of major venues
 venues:
   - vid: dstage
     name: Danzstage
-    address: 
-    textmessage: 
-    blurb: 
-    barrio: 
+    address:
+    textmessage:
+    blurb:
+    barrio:
     geo:
   - vid: dculture
     name: Dance Culture
-    address: 
+    address:
     blurb:
     barrio:
     geo:
   - vid: amico
     name: Amico Studio
-    address: 
-    textmessage: 
-    blurb: 
+    address:
+    textmessage:
+    blurb:
     barrio:
     geo:
   - vid: otro
@@ -110,8 +110,8 @@ venues:
   - vid: ricky
     name: Ricky Studio
   - vid: ping
-    name: PingPong 129    
-    
+    name: PingPong 129
+
 #social feeds
 fblinks:
   groups:
@@ -166,12 +166,12 @@ fblinks:
       id:   "204062013107852"
     - name: Feliz Primavera shoes
       id:   "18850024307"
-     
-      
+
+
 ##############################################
 # The followings are optional data
 # for inclusion in  [TangoFinder]
-# 
+#
 
 #zone is a region, e.g.SAsia, EAsia, WAsia
 zone: easia
@@ -179,7 +179,7 @@ zone: easia
 #continent is Asia, Europe, Africa, America, Oceania
 continent: Asia
 
-#tagline 
+#tagline
 tagline: City of Possibilities
 
 #hero images
@@ -189,15 +189,15 @@ hero: "//res.tangueros.net/assets/jumbos/slide_tky_skyline.png"
 maplink:
 
 #write something to appear in About popup
-#multiline use > 
-about: 
+#multiline use >
+about:
 
 # the local contact person/s
 contact:
   - name:
     email:
     textmsg:
-    
+
 
 
 

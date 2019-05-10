@@ -12,7 +12,7 @@ city: singapore
 country: singapore
 
 #city / country names in local language
-citylocal: 
+citylocal:
 countrylocal:
 
 #geo coding [longitude, latitude]
@@ -20,17 +20,17 @@ countrylocal:
 geo: [0,0]
 
 #current google calendar feed (1 or more)
-gcal: 
+gcal:
   - url
 
-# list of regular weekdays    
+# list of regular weekdays
 # list wday = Mon, Tue, Wed, etc
 regular:
   - wday: Mon
     events:
-      - name: Practica 
+      - name: Practica
         info: @ UP 9.30pm
-        extra: 
+        extra:
   - wday: Tue
     events:
       - name: Milonga Pura
@@ -45,17 +45,17 @@ regular:
     events:
       - name: Milonga Del Romance
         info: Monthly @ downtown bars
-        extra: Organised by Jenny 
+        extra: Organised by Jenny
       - name: Practica
         info: @ Lumen Room 9pm
-        extra: 
+        extra:
   - wday: Fri
     events:
       - name: Los Suenos Milonga
         info: @ Los Suenos
         extra: $??
   - wday: Sat
-    events:    
+    events:
       - name: San Telmo Milonga
         info: @ Abrazos Club 8pm
         extra: $20
@@ -103,19 +103,19 @@ venues:
     geo:
   - vid: c5
     name: Club 5
-    address: Parkroyal Hotel 7500A Beach Road (199590)        
+    address: Parkroyal Hotel 7500A Beach Road (199590)
     blurb: Weekly Milongas
     barrio: Bugis
     geo:
   - vid: ymca
     name: YMCA Orchard
     address:
-    blurb:    
+    blurb:
     barrio: Dhoby Ghaut
     geo:
   - vid: mos
     name: Mosaic Dance
-    address: 222 Queen Street #01-01 (188550) 
+    address: 222 Queen Street #01-01 (188550)
     address2: Opposite Hotel Royal @ Queens
     textmessage: +65 9769 7265
     email: info@mosaicdance.com.sg
@@ -140,14 +140,14 @@ venues:
     name: Le Danz
     address: Waterloo Road
     barrio: Bras Basah
-    geo: 
-    
+    geo:
+
 #social feeds
 fblinks:
   groups:
     - name: tango-this week in singapore
       id:   "1578469612403126"
-    - name: tango singapore 
+    - name: tango singapore
       id:   "50661258531"
     - name: singapore tango
       id:   "318149464969017"
@@ -165,9 +165,9 @@ fblinks:
       id:   "4801573217"
     - name: tango seal
       id:   "1390510314498198"
-  
+
   fanpages:
-    - name: tango singapore 
+    - name: tango singapore
       id:   "1498054700497388"
     - name: abrazos club
       id:   "235855011993"
@@ -181,14 +181,14 @@ fblinks:
       id:   "1590106531246260"
     - name: mosaic
       id:   "222388617776590"
- 
+
 
 
 
 ##############################################
 # The followings are optional data
 # for inclusion in  [TangoFinder]
-# 
+#
 
 #zone is a region, e.g.SAsia, EAsia, WAsia
 zone: asean
@@ -196,7 +196,7 @@ zone: asean
 #continent is Asia, Europe, Africa, America, Oceania
 continent: Asia
 
-#tagline 
+#tagline
 tagline: The Surprising Singapore
 
 #hero images
@@ -206,15 +206,15 @@ hero: "//res.tangueros.net/assets/jumbos/slide_sin_skyline.png"
 maplink:
 
 #write something to appear in About popup
-#multiline use > 
-about: 
+#multiline use >
+about:
 
 # the local contact person/s
 contact:
   - name:
     email:
     textmsg:
-    
+
 
 
 
