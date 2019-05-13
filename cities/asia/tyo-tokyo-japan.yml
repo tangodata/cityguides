@@ -11,12 +11,12 @@
 
 
 #three letter code, use IATA code preferred
-shortname:
-shortcountry:
+shortname: tyo
+shortcountry: jp
 
 #city / country names in English, spacing OK
-city:
-country:
+city: Tokyo
+country: japan
 
 #city / country names in local language
 citylocal:
@@ -74,13 +74,13 @@ fblinks:
 #
 
 #zone is a region, e.g.SAsia, EAsia, WAsia
-zone:
+zone: Easia
 
 #continent is Asia, Europe, Africa, America, Oceania
-continent:
+continent: Asia
 
 #tagline
-tagline:
+tagline: never sleeps
 
 #hero images
 hero:
@@ -91,7 +91,7 @@ maplink:
 
 #write something to appear in About popup
 #multiline use >
-about:
+about: the future
 
 # the local contact person/s
 contact:

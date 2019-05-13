@@ -1,22 +1,14 @@
----
-################################################
-### This is a YAML format configuration file
-### for one city or municipal area
-###
-### filename is (shortname)-(city)-country.yml
-###
-### please validate it is  YAML-correct
-###
+### Bangkok 
 ################################################
 
 
 #three letter code, use IATA code preferred
-shortname:
-shortcountry:
+shortname: bkk
+shortcountry: th
 
 #city / country names in English, spacing OK
-city:
-country:
+city: bangkok
+country: thailand
 
 #city / country names in local language
 citylocal:
@@ -74,13 +66,13 @@ fblinks:
 #
 
 #zone is a region, e.g.SAsia, EAsia, WAsia
-zone:
+zone: Asean
 
 #continent is Asia, Europe, Africa, America, Oceania
-continent:
+continent: Asia
 
 #tagline
-tagline:
+tagline: Land of Smiles
 
 #hero images
 hero:
@@ -91,7 +83,8 @@ maplink:
 
 #write something to appear in About popup
 #multiline use >
-about:
+about: >
+  The nice place with hot weather
 
 # the local contact person/s
 contact:

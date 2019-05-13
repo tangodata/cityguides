@@ -1,4 +1,4 @@
----
+
 ################################################
 ### tpe-taipei-taiwan.yml
 ################################################
@@ -6,6 +6,7 @@
 
 #three letter code, use IATA code preferred
 shortname: tpe
+shortcountry: tw
 
 #city / country names in English, spacing OK
 city: taipei
@@ -179,7 +180,7 @@ maplink:
 
 #write something to appear in About popup
 #multiline use >
-about:
+about: something something
 
 # the local contact person/s
 contact:

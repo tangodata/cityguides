@@ -1,4 +1,4 @@
----
+
 ################################################
 ### hkg-hongkong-hksar.yml
 ################################################
@@ -6,6 +6,7 @@
 
 #three letter code, use IATA code preferred
 shortname: hkg
+shortcountry: hk
 
 #city / country names in English, spacing OK
 city: hongkong
@@ -29,12 +30,12 @@ regular:
   - wday: Mon
     events:
       - name: Milonga Lunes
-        info: @ Dance Concept 9pm-1am
+        info: "@ Dance Concept 9pm-1am"
         extra:
   - wday: Tue
     events:
       - name: Milonga X
-        info: @ Rula Bula Lan Kwai Fong 9.30pm-1am
+        info: "@ Rula Bula Lan Kwai Fong 9.30pm-1am"
         extra:
   - wday: Wed
     events:
@@ -47,15 +48,15 @@ regular:
         info:
         extra:
       - name: Practica Otro
-        info: @ Ricky Studio 9.15pm-12.15am
+        info: "@ Ricky Studio 9.15pm-12.15am"
         extra:
   - wday: Fri
     events:
       - name: Milonga OTRA Noche
-        info: @ Dance Culture 9.30pm-1.30am
+        info: "@ Dance Culture 9.30pm-1.30am"
         extra:
       - name: TANGUERA "La Milonga"
-        info: @ HKU 9.30pm-1am
+        info: "@ HKU 9.30pm-1am"
         extra:
   - wday: Sat
     events:
@@ -190,7 +191,7 @@ maplink:
 
 #write something to appear in About popup
 #multiline use >
-about:
+about: ""
 
 # the local contact person/s
 contact:

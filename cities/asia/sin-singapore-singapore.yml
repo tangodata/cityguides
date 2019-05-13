@@ -1,4 +1,4 @@
----
+
 ################################################
 ### sin-singapore-singapore.yml
 ################################################
@@ -6,6 +6,7 @@
 
 #three letter code, use IATA code preferred
 shortname: sin
+shortcountry: sg
 
 #city / country names in English, spacing OK
 city: singapore
@@ -29,17 +30,17 @@ regular:
   - wday: Mon
     events:
       - name: Practica
-        info: @ UP 9.30pm
+        info: "@ UP 9.30pm"
         extra:
   - wday: Tue
     events:
       - name: Milonga Pura
-        info: @ Lumen Room 9.30pm
+        info: "@ Lumen Room 9.30pm"
         extra: $10
   - wday: Wed
     events:
       - name: Milonga Del Sur
-        info: @ Abrazos Club 9pm
+        info: "@ Abrazos Club 9pm"
         extra: $15
   - wday: Thu
     events:
@@ -47,20 +48,20 @@ regular:
         info: Monthly @ downtown bars
         extra: Organised by Jenny
       - name: Practica
-        info: @ Lumen Room 9pm
+        info: "@ Lumen Room 9pm"
         extra:
   - wday: Fri
     events:
       - name: Los Suenos Milonga
-        info: @ Los Suenos
+        info: "@ Los Suenos"
         extra: $??
   - wday: Sat
     events:
       - name: San Telmo Milonga
-        info: @ Abrazos Club 8pm
+        info: "@ Abrazos Club 8pm"
         extra: $20
       - name: Tangopura Milonga
-        info: @ Lumen Room 9.30pm
+        info: "@ Lumen Room 9.30pm"
         extra: $10
   - wday: Sun
     events:
@@ -71,7 +72,7 @@ regular:
         info: monthly @ Abrazos Club 3-6pm
         extra: $10
       - name: Tangueando (Social Latin mix)
-        info: @ Club 5 8.30pm
+        info: "@ Club 5 8.30pm"
         extra: ??
 
 # list of major venues
@@ -207,7 +208,7 @@ maplink:
 
 #write something to appear in About popup
 #multiline use >
-about:
+about: ""
 
 # the local contact person/s
 contact:
