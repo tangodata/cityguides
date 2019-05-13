@@ -14,6 +14,11 @@ country: thailand
 citylocal:
 countrylocal:
 
+#zone is a region, e.g.SAsia, EAsia, WAsia
+#continent is Asia, Europe, Africa, America, Oceania
+zone: asean
+continent: asia
+
 #geo coding [longitude, latitude]
 #indicator of the city in world map
 geo: [0,0]
@@ -64,12 +69,6 @@ fblinks:
 # The followings are optional data
 # for inclusion in  [TangoFinder]
 #
-
-#zone is a region, e.g.SAsia, EAsia, WAsia
-zone: Asean
-
-#continent is Asia, Europe, Africa, America, Oceania
-continent: Asia
 
 #tagline
 tagline: Land of Smiles

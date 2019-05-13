@@ -15,12 +15,17 @@ shortname: tyo
 shortcountry: jp
 
 #city / country names in English, spacing OK
-city: Tokyo
+city: tokyo
 country: japan
 
 #city / country names in local language
 citylocal:
 countrylocal:
+
+#zone is a region, e.g.SAsia, EAsia, WAsia
+#continent is Asia, Europe, Africa, America, Oceania
+zone: easia
+continent: asia
 
 #geo coding [longitude, latitude]
 #indicator of the city in world map
@@ -72,12 +77,6 @@ fblinks:
 # The followings are optional data
 # for inclusion in  [TangoFinder]
 #
-
-#zone is a region, e.g.SAsia, EAsia, WAsia
-zone: Easia
-
-#continent is Asia, Europe, Africa, America, Oceania
-continent: Asia
 
 #tagline
 tagline: never sleeps
