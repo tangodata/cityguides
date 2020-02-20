@@ -1,40 +1,39 @@
 ---
-# A Big List of Configured Cities Data
-
+# some stuffs
 -
-  code: 'sin'
-  name: 'Singapore'
-  zone: 'Singapore'
-  region: 'asia'
-  fn: 'asia/sin-singapore-singapore'
+  code: sin
+  name: Singapore
+  zone: Singapore
+  region: asia
+  fn: asia/sin-singapore-singapore
 -
-  code: 'hkg'
-  name:'Hong Kong'
-  zone: 'HKSAR'
-  region: 'asia'
-  fn: 'asia/hkg-hongkong-hksar'
+  code: hkg
+  name: Hong Kong
+  zone: HKSAR
+  region: asia
+  fn: asia/hkg-hongkong-hksar
 -
-  code: 'tpe'
-  name:'Taipei'
-  zone: 'Taiwan'
-  region: 'asia'
-  fn: 'asia/tpe-taipei-taiwan'
+  code: tpe
+  name: Taipei
+  zone: Taiwan
+  region: asia
+  fn: asia/tpe-taipei-taiwan
 -
-  code: 'icn'
-  name:'Seoul'
-  zone: 'Korea'
-  region: 'asia'
-  fn: 'asia/icn-seoul-korea'
+  code: icn
+  name: Seoul
+  zone: Korea
+  region: asia
+  fn: asia/icn-seoul-korea
 -
-  code: 'tyo'
-  name:'Tokyo'
-  zone: 'Japan'
-  region: 'asia'
-  fn: 'asia/tyo-tokyo-japan'
+  code: tyo
+  name: Tokyo
+  zone: Japan
+  region: asia
+  fn: asia/tyo-tokyo-japan
 -
-  code: 'bkk'
-  name:'Bangkok'
-  zone: 'Thailand'
-  region: 'asia'
-  fn: 'asia/bkk-bangkok-thailand'
-
+  code: bkk
+  name: Bangkok
+  zone: Thailand
+  region: asia
+  fn: asia/bkk-bangkok-thailand
+ 
