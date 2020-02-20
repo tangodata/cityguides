@@ -29,7 +29,7 @@
   region: 'asia'
   fn: 'asia/tyo-tokyo-japan'
 -
-  ccode: 'bkk'
+  code: 'bkk'
   name:'Bangkok'
   zone: 'Thailand'
   region: 'asia'
